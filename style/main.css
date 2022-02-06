@@ -443,6 +443,10 @@
   color: #111111;
 }
 
+.section-3 .left-text p span {
+  border-bottom: 2px solid #111111;
+}
+
 .section-3 .left-text div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -630,7 +634,11 @@
 
 .section-4 .left-text p {
   font-size: 20px;
-  color: #111111;
+  color: #555555;
+}
+
+.section-4 .left-text p span {
+  border-bottom: 2px solid #555555;
 }
 
 .section-4 .left-text div {
@@ -646,6 +654,41 @@
 
 .section-4 .left-text div p {
   color: #111111;
+}
+
+.section-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-5 .card {
+  background: #555555;
+  border-radius: 16px;
+  padding: 80px;
+}
+
+.section-5 .card img {
+  display: block;
+  margin-bottom: 32px;
+}
+
+.section-5 .card b {
+  font-weight: 500;
+  font-size: 40px;
+  color: white;
+}
+
+.section-5 .card p {
+  padding-top: 32px;
+  font-size: 19px;
+  color: #CCCCCC;
 }
 
 * {

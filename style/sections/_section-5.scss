@@ -1,0 +1,28 @@
+.section-5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .card {
+        background: #555555;
+        border-radius: 16px;
+        padding: 80px;
+
+        img {
+            display: block;
+            margin-bottom: 32px;
+        }
+
+        b {
+            font-weight: 500;
+            font-size: 40px;
+            color: white;
+        }
+
+        p {
+            padding-top: 32px;
+            font-size: 19px;
+            color: #CCCCCC;
+        }
+    }
+}
