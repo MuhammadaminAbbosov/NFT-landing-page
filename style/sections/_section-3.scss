@@ -1,3 +1,80 @@
 .section-3  {
     margin: 120px 0;
+    width: 100%;
+    background-color: #FF8139;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 40px;
+
+    .back {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 400px;
+        height: 200px;
+        background-color: #FF3998;
+        filter: blur(100px);
+    }
+
+    padding: 80px 80px 0 80px;
+    .left-text {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        b {
+            font-size: 40px;
+            line-height: 48px;
+            color: #111111;
+        }
+
+        p {
+            font-size: 20px;
+            color: #111111;
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            cursor: pointer;
+
+            p  {
+                color: #111111;
+            }
+        }
+    }
+
+    .right-img {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        align-items: flex-end;
+
+        div {
+            margin-left: 50px;
+            margin-bottom: 100px;
+            p {
+                font-weight: 500;
+                &:nth-child(1) {
+                    font-size: 12px;
+                    color: white;
+                    padding-bottom: 12px;
+                }
+
+                &:nth-child(2) {
+                    font-size: 20px;
+                    color: #111111;
+                    padding-bottom: 12px;
+                }
+
+                &:nth-child(3) {
+                    font-size: 18px;
+                    color: #777;
+                }
+            }
+        }
+    }
 }
