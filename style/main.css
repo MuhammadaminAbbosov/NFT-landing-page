@@ -39,7 +39,7 @@
   color: #FF3998;
 }
 
-.hero-container {
+.section-1 .hero-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,7 +51,7 @@
           justify-content: space-between;
 }
 
-.hero-container .hero-text h4 {
+.section-1 .hero-container .hero-text h4 {
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
@@ -60,19 +60,19 @@
   padding-bottom: 18px;
 }
 
-.hero-container .hero-text b {
+.section-1 .hero-container .hero-text b {
   color: white;
   font-weight: 900;
   font-size: 96px;
 }
 
-.hero-container .hero-text p {
+.section-1 .hero-container .hero-text p {
   padding: 20px 0;
   color: #CCCCCC;
   font-size: 20px;
 }
 
-.hero-container .hero-text button {
+.section-1 .hero-container .hero-text button {
   background-color: transparent;
   color: white;
   outline: none;
@@ -83,16 +83,16 @@
   font-size: 20px;
 }
 
-.hero-container .hero-img {
+.section-1 .hero-container .hero-img {
   position: relative;
 }
 
-.hero-container .hero-img img {
+.section-1 .hero-container .hero-img img {
   margin-right: 160px;
   width: 300px;
 }
 
-.hero-container .hero-img .back {
+.section-1 .hero-container .hero-img .back {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -666,6 +666,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 120px;
 }
 
 .section-5 .card {
@@ -689,6 +690,74 @@
   padding-top: 32px;
   font-size: 19px;
   color: #CCCCCC;
+}
+
+.section-6 {
+  padding-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 2px solid #555;
+  border-bottom: 2px solid #555;
+}
+
+.section-6 .hero-text h4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  color: #FF3998;
+  padding-bottom: 18px;
+}
+
+.section-6 .hero-text b {
+  color: white;
+  font-weight: 900;
+  font-size: 96px;
+}
+
+.section-6 .hero-text p {
+  padding: 20px 0;
+  color: #CCCCCC;
+  font-size: 20px;
+}
+
+.section-6 .hero-text button {
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: 2px solid #FF3998;
+  border-radius: 50px;
+  padding: 22px 52px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.section-6 .hero-img {
+  position: relative;
+}
+
+.section-6 .hero-img img {
+  margin-right: 160px;
+}
+
+.section-6 .hero-img .back {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -2;
+  -webkit-filter: blur(100px);
+          filter: blur(100px);
+  border-radius: 80%;
+  background-color: #FF3998;
+  width: 200px;
+  height: 350px;
 }
 
 * {
